@@ -1,17 +1,12 @@
-import os
-from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from crewai import Agent, Task, Crew
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
-# Load environment variables
-load_dotenv()
-
 # Retrieve API keys
-groq_key = os.getenv('GROQ_API_KEY')
-langsmith_key = os.getenv('LANGSMITH_API_KEY')
+groq_key = "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"
+langsmith_key = "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"
 
 # Set environment variables for LangChain
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
