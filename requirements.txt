@@ -4,4 +4,4 @@ langchain
 langchain_groq
 langchain_community
 crewai
-chromadb==latest
+chromadb==0.5.5
