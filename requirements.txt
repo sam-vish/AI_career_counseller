@@ -1,7 +1,6 @@
-langgraph
+streamlit
 langsmith
 langchain
 langchain_groq
 langchain_community
-python-dotenv
-streamlit
+crewai
