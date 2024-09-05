@@ -1,3 +1,4 @@
+import os
 from langchain_groq import ChatGroq
 from crewai import Agent, Task, Crew
 from langchain.memory import ConversationBufferMemory
